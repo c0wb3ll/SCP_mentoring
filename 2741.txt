@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+	int k;
+	scanf("%d", &k);
+
+	for (int w = 1; w <= k; w++) {
+		printf("%d\n", w);
+	}
+	return 0;
+}
