@@ -3,7 +3,7 @@
 int main()
 {
 	char ch[101];
-	int num1 = 1;
+	int num1 = 0;
 	while (num1 <= 100 && gets(ch))
 	{
 		if (ch[0] == ' ')
