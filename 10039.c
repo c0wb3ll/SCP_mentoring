@@ -7,7 +7,7 @@ int main()
 	for (i = 0; i < 5; i++)
 	{
 		scanf("%d", &score);
-		if (score <= 40)
+		if (score < 40)
 		{
 			score = 40;
 		}
