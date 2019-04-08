@@ -6,13 +6,12 @@ int main()
 
 	for (i = 0; i < 5; i++)
 	{
-		scanf("%d", &arr[k]);
-		if (arr[k] <= 40)
+		scanf("%d", &arr[i]);
+		if (arr[i] <= 40)
 		{
-			arr[k] = 40;
+			arr[i] = 40;
 		}
-		sum += arr[k];
-		k++;
+		sum += arr[i];
 	}
 	printf("%d", sum / i);
 
