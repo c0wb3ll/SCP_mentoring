@@ -2,7 +2,7 @@
 
 int main()
 {
-	int i, k = 1, arr[5], sum = 0;
+	int i, arr[5], sum = 0;
 
 	for (i = 0; i < 5; i++)
 	{
